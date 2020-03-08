@@ -26,3 +26,10 @@ weights
 weights.shape  #(6, 16)
 biases
 biases.shape  #(16,)
+hidden2=model.layers[3]
+weights2, biases2 = hidden2.get_weights()
+weights2
+weights2.shape  #(16, 4)
+biases2
+biases2.shape  #(4,)
+
